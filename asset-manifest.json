@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Eliftech-front.git/static/css/main.7acaea2f.css",
+    "main.js": "/Eliftech-front.git/static/js/main.07d3183d.js",
+    "index.html": "/Eliftech-front.git/index.html",
+    "main.7acaea2f.css.map": "/Eliftech-front.git/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/Eliftech-front.git/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
