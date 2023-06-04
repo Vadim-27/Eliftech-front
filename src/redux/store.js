@@ -1,4 +1,4 @@
-import { configureStore } from '@reduxjs/toolkit';
+import { configureStore} from '@reduxjs/toolkit';
 import {
   persistStore,
   persistReducer,
@@ -29,8 +29,8 @@ export const store = configureStore({
     getDefaultMiddleware({
       serializableCheck: {
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+        
       },
-      ignoredActions: ['payload.headers'],
     }),
 });
 

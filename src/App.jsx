@@ -1,7 +1,8 @@
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import { store } from 'redux/store';
-// import { store } from 'redux/shop/store';
+import { PersistGate } from 'redux-persist/integration/react';
+import { store, persistor } from 'redux/store';
+
 
 import Navbar from 'modules/Navbar/Navbar';
 import MainPage from 'Page/MainPage/MainPage';
@@ -11,10 +12,10 @@ import NotFoundPage from 'Page/NotFoundPage/NotFoundPage';
 
 export const App = () => {
   return (
-  
-      <Provider store={store}>
-        
-        <BrowserRouter basename="/">
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <BrowserRouter basename="/Eliftech-front.git">
+          {/* basename="Eliftech-front" */}
           <Navbar />
           <Routes>
             <Route path="/" element={<MainPage />} />
@@ -23,7 +24,7 @@ export const App = () => {
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </BrowserRouter>
-      </Provider>
-    
+      </PersistGate>
+    </Provider>
   );
 };

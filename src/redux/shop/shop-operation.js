@@ -7,8 +7,8 @@ export const fetchProducts = createAsyncThunk(
     try {
       const result = await api.getProducts(data);
       return result;
-    } catch ({ responce }) {
-      return rejectWithValue(responce);
+    } catch ({  response }) {
+      return rejectWithValue(response);
     }
   }
 );
