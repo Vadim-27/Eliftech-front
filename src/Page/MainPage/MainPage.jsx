@@ -1,4 +1,4 @@
-// const MainPage = () => {
-//     return (<div> gvggrbrb</div>)
-// }
-// export default MainPage; 
+const MainPage = () => {
+    return (<div> </div>)
+}
+export default MainPage; 
