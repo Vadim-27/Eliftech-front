@@ -1,13 +1,27 @@
 {
   "files": {
-    "main.css": "/Eliftech-front.git/static/css/main.d6b52ef8.css",
-    "main.js": "/Eliftech-front.git/static/js/main.738ce633.js",
-    "index.html": "/Eliftech-front.git/index.html",
-    "main.d6b52ef8.css.map": "/Eliftech-front.git/static/css/main.d6b52ef8.css.map",
-    "main.738ce633.js.map": "/Eliftech-front.git/static/js/main.738ce633.js.map"
+    "main.css": "/Eliftech-front/static/css/main.17eb9674.css",
+    "main.js": "/Eliftech-front/static/js/main.c8ab4e96.js",
+    "static/css/88.2d571857.chunk.css": "/Eliftech-front/static/css/88.2d571857.chunk.css",
+    "static/js/88.48cea511.chunk.js": "/Eliftech-front/static/js/88.48cea511.chunk.js",
+    "static/css/105.5edeb5b5.chunk.css": "/Eliftech-front/static/css/105.5edeb5b5.chunk.css",
+    "static/js/105.ea13024a.chunk.js": "/Eliftech-front/static/js/105.ea13024a.chunk.js",
+    "static/css/349.ddffd31d.chunk.css": "/Eliftech-front/static/css/349.ddffd31d.chunk.css",
+    "static/js/349.5391dc1b.chunk.js": "/Eliftech-front/static/js/349.5391dc1b.chunk.js",
+    "static/js/676.b8bbe166.chunk.js": "/Eliftech-front/static/js/676.b8bbe166.chunk.js",
+    "index.html": "/Eliftech-front/index.html",
+    "main.17eb9674.css.map": "/Eliftech-front/static/css/main.17eb9674.css.map",
+    "main.c8ab4e96.js.map": "/Eliftech-front/static/js/main.c8ab4e96.js.map",
+    "88.2d571857.chunk.css.map": "/Eliftech-front/static/css/88.2d571857.chunk.css.map",
+    "88.48cea511.chunk.js.map": "/Eliftech-front/static/js/88.48cea511.chunk.js.map",
+    "105.5edeb5b5.chunk.css.map": "/Eliftech-front/static/css/105.5edeb5b5.chunk.css.map",
+    "105.ea13024a.chunk.js.map": "/Eliftech-front/static/js/105.ea13024a.chunk.js.map",
+    "349.ddffd31d.chunk.css.map": "/Eliftech-front/static/css/349.ddffd31d.chunk.css.map",
+    "349.5391dc1b.chunk.js.map": "/Eliftech-front/static/js/349.5391dc1b.chunk.js.map",
+    "676.b8bbe166.chunk.js.map": "/Eliftech-front/static/js/676.b8bbe166.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6b52ef8.css",
-    "static/js/main.738ce633.js"
+    "static/css/main.17eb9674.css",
+    "static/js/main.c8ab4e96.js"
   ]
 }
