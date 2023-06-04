@@ -19,6 +19,7 @@ const shopSlice = createSlice({
         store.error = null;
       })
       .addCase(fetchProducts.fulfilled, (store, { payload }) => {
+       
         store.loading = false;
         store.products = payload.data;
       })
