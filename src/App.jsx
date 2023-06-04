@@ -14,11 +14,10 @@ export const App = () => {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/Eliftech-front.git">
-          {/* basename="Eliftech-front" */}
+        <BrowserRouter basename="/">
           <Navbar />
           <Routes>
-            <Route path="/" element={<MainPage />} />
+            {/* <Route path="/" element={<MainPage />} /> */}
             <Route path="/shop/:shop" element={<ShopPage />} />
             <Route path="/shop-card" element={<ShoppingCardPage />} />
             <Route path="*" element={<NotFoundPage />} />

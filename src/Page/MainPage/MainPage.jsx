@@ -1,4 +1,4 @@
 const MainPage = () => {
-    return (<div></div>)
+    return (<div> gvggrbrb</div>)
 }
 export default MainPage; 
