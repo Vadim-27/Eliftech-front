@@ -1,0 +1,35 @@
+.markupShopList{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+}
+.items{
+    width: 280px;
+    background-color: burlywood;
+}
+.shopBox{
+    min-height: 200px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+.titleShopList{
+    margin-bottom: 10px;
+}
+.price{
+    margin-bottom: 10px;
+}
+.buyButton{
+    margin-bottom: 10px;
+    padding-top: 6px;
+    padding-right: 25px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #CCE4FB;
+    &:hover,
+    &:focus{
+        background-color:#54ADFF; ;
+    }
+}

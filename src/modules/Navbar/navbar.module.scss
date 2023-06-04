@@ -1,0 +1,19 @@
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.link:global(.active) {
+    font-weight: bold;
+}

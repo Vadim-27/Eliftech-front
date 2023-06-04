@@ -1,0 +1,30 @@
+import { createAsyncThunk } from '@reduxjs/toolkit';
+import * as api from 'shared/services/shop';
+
+export const fetchProducts = createAsyncThunk(
+  'shop/products',
+  async (data, { rejectWithValue }) => {
+    try {
+      const result = await api.getProducts(data);
+      return result;
+    } catch ({ responce }) {
+      return rejectWithValue(responce);
+    }
+  }
+);
+
+export const addToOrder = createAsyncThunk(
+  'add/order',
+  async (product, { rejectWithValue }) => {
+    
+    try {
+      return product;
+    } catch ({response }) {
+        return rejectWithValue(response);   
+    }
+}
+);
+    
+
+
+

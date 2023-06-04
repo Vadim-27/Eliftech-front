@@ -1,0 +1,18 @@
+.userInfoForm{
+    padding-right: 20px;
+}
+.userInfoFormButton{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    border-radius: 10px;
+      background-color: #CCE4FB;
+    &:hover,
+    &:focus{
+        background-color:#54ADFF; ;
+    }
+    border: none;
+}
