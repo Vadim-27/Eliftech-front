@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Eliftech-front.git/static/css/main.d6b52ef8.css",
-    "main.js": "/Eliftech-front.git/static/js/main.b69867ba.js",
+    "main.js": "/Eliftech-front.git/static/js/main.a1a31351.js",
     "index.html": "/Eliftech-front.git/index.html",
     "main.d6b52ef8.css.map": "/Eliftech-front.git/static/css/main.d6b52ef8.css.map",
-    "main.b69867ba.js.map": "/Eliftech-front.git/static/js/main.b69867ba.js.map"
+    "main.a1a31351.js.map": "/Eliftech-front.git/static/js/main.a1a31351.js.map"
   },
   "entrypoints": [
     "static/css/main.d6b52ef8.css",
-    "static/js/main.b69867ba.js"
+    "static/js/main.a1a31351.js"
   ]
 }
