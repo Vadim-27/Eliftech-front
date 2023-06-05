@@ -21,7 +21,7 @@ const shopSlice = createSlice({
       .addCase(fetchProducts.fulfilled, (store, { payload }) => {
        
         store.loading = false;
-        store.products = payload.data;
+        store.products = payload;
       })
       .addCase(fetchProducts.rejected, (store, { payload }) => {
         store.loading = false;

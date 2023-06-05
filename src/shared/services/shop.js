@@ -5,10 +5,11 @@ const instance = axios.create({
 });
 
 export const getProducts = async ({ shop }) => {
-    
-    const result = await instance.get(`/api/products/${shop}`);
+ 
+  const result = await instance.get(`/api/products/${shop}`);
+  
    
-  return result;
+  return result.data;
 };
 
 export const getProductsById = async products => {

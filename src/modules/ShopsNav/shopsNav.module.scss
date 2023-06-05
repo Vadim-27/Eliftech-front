@@ -1,6 +1,30 @@
 .markupShopNav{
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    min-width: 150px;
+    
+    // margin-right: 10px;
+    
 }
+.list{display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 140px;
+    border-radius: 15px;
+    background-color: rgb(246, 238, 229);
+}
+    
+// .shop{
+//     align-items: center;
+//     background-color: #ff6f00;
+//     border: 0;
+//     border-radius: 15px;
+//     color: #fff;
+//     cursor: pointer;
+//     display: flex;
+//     height: 30px;
+//     justify-content: center;
+//     text-decoration: none;
+//     // width: 130px;
+// }

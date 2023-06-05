@@ -5,12 +5,12 @@ import css from './shopsNav.module.scss'
 const ShopsNav = () => {
     const elementShopNav = items.map(({ id, text, link }) => {
         return (<li key={id}>
-            <NavLink to={link}>{ text}</NavLink>
+            <NavLink className={css.shop}  to={link}>{ text}</NavLink>
         </li>)
     })
     return (
       <div className={css.markupShopNav}>
-        <ul className={css.markupShopNav}>{elementShopNav}</ul>
+        <ul className={css.list}>{elementShopNav}</ul>
       </div>
     );
 }
