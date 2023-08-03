@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { fetchProducts, addToOrder } from './shop-operation';
+import { fetchProducts, addToOrder, dellItemOrder, dellAllOrder } from './shop-operation';
 // import { addToOrder } from './action';
 
 const initialState = {
@@ -19,7 +19,6 @@ const shopSlice = createSlice({
         store.error = null;
       })
       .addCase(fetchProducts.fulfilled, (store, { payload }) => {
-       
         store.loading = false;
         store.products = payload;
       })
@@ -37,6 +36,13 @@ const shopSlice = createSlice({
         if (!existingProduct) {
           state.orders.push(newProduct);
         }
+      })
+      .addCase(dellItemOrder.fulfilled, (state, { payload }) => {
+        const index = state.orders.findIndex(item => item.id === payload);
+        state.orders.splice(index, 1);
+      })
+      .addCase(dellAllOrder.fulfilled, (state, { payload }) => {
+        state.orders = [];
       });
   },
 });

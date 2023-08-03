@@ -7,7 +7,7 @@ const instance = axios.create({
 export const getProducts = async ({ shop }) => {
  
   const result = await instance.get(`/api/products/${shop}`);
-  
+  console.log('result-api', result);
    
   return result.data;
 };

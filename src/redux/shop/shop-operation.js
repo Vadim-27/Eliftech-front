@@ -26,6 +26,27 @@ export const addToOrder = createAsyncThunk(
     }
 }
 );
+export const dellItemOrder = createAsyncThunk(
+  'dell/item',
+  async (id, { rejectWithValue }) => {
+    try {
+       await id;
+      return id;
+    } catch ({ response }) {
+      return rejectWithValue(response);
+    }
+  })
+  export const dellAllOrder = createAsyncThunk(
+    'dell/order',
+    async (product, { rejectWithValue }) => {
+      try {
+        const result = await product;
+        return result;
+      } catch ({ response }) {
+        return rejectWithValue(response);
+      }
+    }
+  );
     
 
 

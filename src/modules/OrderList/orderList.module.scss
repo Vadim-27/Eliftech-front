@@ -5,7 +5,8 @@
     gap: 20px;
 }
 .items{
-    width: 280px;
+    position: relative;
+    width: 275px;
     background-color: burlywood;
 }
 .shopBox{
@@ -42,6 +43,29 @@
     margin-bottom: 10px;
 }
 .totalPrise{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(193, 151, 233);
+}
+.btnTrash{
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    border-radius: 50px;
+    left: 240px;
+  top: 5px;
+  z-index: 100;
+}
+.btnTrash:hover .trash path{
+    stroke: #0b7de8;
+}
+.btnDeleteAll{
+    display: block;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
