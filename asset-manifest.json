@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/Eliftech-front/static/css/main.17eb9674.css",
-    "main.js": "/Eliftech-front/static/js/main.260071bd.js",
+    "main.js": "/Eliftech-front/static/js/main.1f56a96a.js",
     "static/css/88.2d571857.chunk.css": "/Eliftech-front/static/css/88.2d571857.chunk.css",
     "static/js/88.48cea511.chunk.js": "/Eliftech-front/static/js/88.48cea511.chunk.js",
     "static/css/105.6d97d26f.chunk.css": "/Eliftech-front/static/css/105.6d97d26f.chunk.css",
-    "static/js/105.bb890964.chunk.js": "/Eliftech-front/static/js/105.bb890964.chunk.js",
-    "static/css/349.ddffd31d.chunk.css": "/Eliftech-front/static/css/349.ddffd31d.chunk.css",
-    "static/js/349.5391dc1b.chunk.js": "/Eliftech-front/static/js/349.5391dc1b.chunk.js",
+    "static/js/105.5f8d654e.chunk.js": "/Eliftech-front/static/js/105.5f8d654e.chunk.js",
+    "static/css/745.f11ed8d5.chunk.css": "/Eliftech-front/static/css/745.f11ed8d5.chunk.css",
+    "static/js/745.88675038.chunk.js": "/Eliftech-front/static/js/745.88675038.chunk.js",
     "static/js/676.b8bbe166.chunk.js": "/Eliftech-front/static/js/676.b8bbe166.chunk.js",
     "index.html": "/Eliftech-front/index.html",
     "main.17eb9674.css.map": "/Eliftech-front/static/css/main.17eb9674.css.map",
-    "main.260071bd.js.map": "/Eliftech-front/static/js/main.260071bd.js.map",
+    "main.1f56a96a.js.map": "/Eliftech-front/static/js/main.1f56a96a.js.map",
     "88.2d571857.chunk.css.map": "/Eliftech-front/static/css/88.2d571857.chunk.css.map",
     "88.48cea511.chunk.js.map": "/Eliftech-front/static/js/88.48cea511.chunk.js.map",
     "105.6d97d26f.chunk.css.map": "/Eliftech-front/static/css/105.6d97d26f.chunk.css.map",
-    "105.bb890964.chunk.js.map": "/Eliftech-front/static/js/105.bb890964.chunk.js.map",
-    "349.ddffd31d.chunk.css.map": "/Eliftech-front/static/css/349.ddffd31d.chunk.css.map",
-    "349.5391dc1b.chunk.js.map": "/Eliftech-front/static/js/349.5391dc1b.chunk.js.map",
+    "105.5f8d654e.chunk.js.map": "/Eliftech-front/static/js/105.5f8d654e.chunk.js.map",
+    "745.f11ed8d5.chunk.css.map": "/Eliftech-front/static/css/745.f11ed8d5.chunk.css.map",
+    "745.88675038.chunk.js.map": "/Eliftech-front/static/js/745.88675038.chunk.js.map",
     "676.b8bbe166.chunk.js.map": "/Eliftech-front/static/js/676.b8bbe166.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17eb9674.css",
-    "static/js/main.260071bd.js"
+    "static/js/main.1f56a96a.js"
   ]
 }
